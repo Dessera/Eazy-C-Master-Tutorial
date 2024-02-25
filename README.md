@@ -11,10 +11,36 @@
 - 架构：
 
 ```bash
-├─code
-│  ├─demo  // demo示例代码
-│  └─exercise // exercise示例代码
-└─document 
-    ├─doc  // 文档说明
-    └─PPT  // PPT
+|   LICENSE
+|   README.md
+|
++---code
+|   +---demo
+|   \---exercise
+|           Exercise_03.md
+|           Exercise_04.md
+|           Exercise_05.md
+|           Exercise_06.md
+|
+\---document
+    +---doc
+    |   |   00-前言.md
+    |   |   01-开发环境说明.md
+    |   |   02-认识简单的C-C++程序.md
+    |   |   03-基本数据类型与变量.md
+    |   |   04-表达式与流程控制.md
+    |   |   05-函数.md
+    |   |   06-高级数据类型.md
+    |   |   07-指针.md
+    |   |   eazy-c-master-tutorial 2024-1-30.md
+    |   |
+    |   \---assets
+    |       \---00
+    |               add-execution.png
+    |               close-all.png
+    |               open-editor.png
+    |               overview.png
+    |               result.png
+    |
+    \---PPT
 ```
