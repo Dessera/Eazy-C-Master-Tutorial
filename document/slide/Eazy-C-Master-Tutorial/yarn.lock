@@ -5,6 +5,18 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@alvarosabu/ui@npm:3.0.0-alpha.13":
+  version: 3.0.0-alpha.13
+  resolution: "@alvarosabu/ui@npm:3.0.0-alpha.13"
+  dependencies:
+    "@vueuse/core": "npm:^10.2.1"
+    sass: "npm:^1.64.1"
+    shikey: "npm:^0.0.2"
+    vue: "npm:^3.3.4"
+  checksum: 10c0/9d075cb7c5c20530377f2383486544343f0ea71a2cfbb2eede8242ffe5969f1c5cba7935d664736bd362d800b8e1c16ec3da9bebcfb4aaa4359b3280738017be
+  languageName: node
+  linkType: hard
+
 "@ampproject/remapping@npm:^2.2.0, @ampproject/remapping@npm:^2.2.1":
   version: 2.2.1
   resolution: "@ampproject/remapping@npm:2.2.1"
@@ -1213,18 +1225,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slidev/theme-default@npm:latest":
-  version: 0.25.0
-  resolution: "@slidev/theme-default@npm:0.25.0"
-  dependencies:
-    "@slidev/types": "npm:^0.47.0"
-    codemirror-theme-vars: "npm:^0.1.2"
-    prism-theme-vars: "npm:^0.2.4"
-  checksum: 10c0/cee1a730a2bfa3df3dc87ec4a9aa5046d9249e48db6c217ff67a650e4fd112113f92aa98d7f92d4833b2bca0eb7026db3ff7992d62d36e1a4a10586521fcdd3c
-  languageName: node
-  linkType: hard
-
-"@slidev/theme-seriph@npm:latest":
+"@slidev/theme-seriph@npm:^0.25.0":
   version: 0.25.0
   resolution: "@slidev/theme-seriph@npm:0.25.0"
   dependencies:
@@ -1242,6 +1243,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@slidev/types@npm:^0.29.2":
+  version: 0.29.2
+  resolution: "@slidev/types@npm:0.29.2"
+  checksum: 10c0/34e025ea9597f66fca1dd63d1d88715e70cde056797b28d6f10d8f65a8ba5767586c2a3171f60e0589f9e2804f055b078b1ba2084288af476d58593a0311b632
+  languageName: node
+  linkType: hard
+
+"@slidev/types@npm:^0.42.8":
+  version: 0.42.11
+  resolution: "@slidev/types@npm:0.42.11"
+  checksum: 10c0/e3ea64fbdb245a4c19d62d0b709eeda4262e5b72a25049d9baaad59cb22caedf33ec23332531e32ce8dfbeb44e7965ac93934a9cf76b11cb73cac8f95803fcb7
+  languageName: node
+  linkType: hard
+
 "@slidev/types@npm:^0.47.0":
   version: 0.47.5
   resolution: "@slidev/types@npm:0.47.5"
@@ -1255,6 +1270,13 @@ __metadata:
   dependencies:
     defer-to-connect: "npm:^2.0.1"
   checksum: 10c0/4629d2fbb2ea67c2e9dc03af235c0991c79ebdddcbc19aed5d5732fb29ce01c13331e9b1a491584b9069bd6ecde6581dcbf871f11b7eefdebbab34de6cf2197e
+  languageName: node
+  linkType: hard
+
+"@trysound/sax@npm:0.2.0":
+  version: 0.2.0
+  resolution: "@trysound/sax@npm:0.2.0"
+  checksum: 10c0/44907308549ce775a41c38a815f747009ac45929a45d642b836aa6b0a536e4978d30b8d7d680bbd116e9dd73b7dbe2ef0d1369dcfc2d09e83ba381e485ecbe12
   languageName: node
   linkType: hard
 
@@ -1831,7 +1853,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-sfc@npm:3.4.20, @vue/compiler-sfc@npm:^3.4.15":
+"@vue/compiler-sfc@npm:3.4.20, @vue/compiler-sfc@npm:^3.2.20, @vue/compiler-sfc@npm:^3.4.15":
   version: 3.4.20
   resolution: "@vue/compiler-sfc@npm:3.4.20"
   dependencies:
@@ -1936,7 +1958,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^10.1.2, @vueuse/core@npm:^10.8.0":
+"@vueuse/core@npm:^10.1.2, @vueuse/core@npm:^10.2.1, @vueuse/core@npm:^10.8.0":
   version: 10.8.0
   resolution: "@vueuse/core@npm:10.8.0"
   dependencies:
@@ -2143,6 +2165,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"boolbase@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "boolbase@npm:1.0.0"
+  checksum: 10c0/e4b53deb4f2b85c52be0e21a273f2045c7b6a6ea002b0e139c744cb6f95e9ec044439a52883b0d74dedd1ff3da55ed140cfdddfed7fb0cccbed373de5dce1bcf
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^2.0.1":
   version: 2.0.1
   resolution: "brace-expansion@npm:2.0.1"
@@ -2292,7 +2321,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:^3.5.3":
+"chokidar@npm:>=3.0.0 <4.0.0, chokidar@npm:^3.5.3":
   version: 3.6.0
   resolution: "chokidar@npm:3.6.0"
   dependencies:
@@ -2363,7 +2392,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"codemirror-theme-vars@npm:^0.1.2":
+"codemirror-theme-vars@npm:^0.1.1, codemirror-theme-vars@npm:^0.1.2":
   version: 0.1.2
   resolution: "codemirror-theme-vars@npm:0.1.2"
   checksum: 10c0/068354242d1b54104bc546896a3b55323253e35b3c2209ff1b3ea540caafb3d92bff67db060cf20383f42e68281f8c0d0e443ab6db5d604abe714a0214267098
@@ -2425,7 +2454,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:7":
+"commander@npm:7, commander@npm:^7.2.0":
   version: 7.2.0
   resolution: "commander@npm:7.2.0"
   checksum: 10c0/8d690ff13b0356df7e0ebbe6c59b4712f754f4b724d4f473d3cc5b3fdcf978e3a5dc3078717858a2ceb50b0f84d0660a7f22a96cdc50fb877d0c9bb31593d23a
@@ -2499,6 +2528,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"css-select@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "css-select@npm:5.1.0"
+  dependencies:
+    boolbase: "npm:^1.0.0"
+    css-what: "npm:^6.1.0"
+    domhandler: "npm:^5.0.2"
+    domutils: "npm:^3.0.1"
+    nth-check: "npm:^2.0.1"
+  checksum: 10c0/551c60dba5b54054741032c1793b5734f6ba45e23ae9e82761a3c0ed1acbb8cfedfa443aaba3a3c1a54cac12b456d2012a09d2cd5f0e82e430454c1b9d84d500
+  languageName: node
+  linkType: hard
+
 "css-tree@npm:^2.3.1":
   version: 2.3.1
   resolution: "css-tree@npm:2.3.1"
@@ -2509,12 +2551,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"css-tree@npm:~2.2.0":
+  version: 2.2.1
+  resolution: "css-tree@npm:2.2.1"
+  dependencies:
+    mdn-data: "npm:2.0.28"
+    source-map-js: "npm:^1.0.1"
+  checksum: 10c0/47e87b0f02f8ac22f57eceb65c58011dd142d2158128882a0bf963cf2eabb81a4ebbc2e3790c8289be7919fa8b83750c7b69272bd66772c708143b772ba3c186
+  languageName: node
+  linkType: hard
+
+"css-what@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "css-what@npm:6.1.0"
+  checksum: 10c0/a09f5a6b14ba8dcf57ae9a59474722e80f20406c53a61e9aedb0eedc693b135113ffe2983f4efc4b5065ae639442e9ae88df24941ef159c218b231011d733746
+  languageName: node
+  linkType: hard
+
 "cssesc@npm:^3.0.0":
   version: 3.0.0
   resolution: "cssesc@npm:3.0.0"
   bin:
     cssesc: bin/cssesc
   checksum: 10c0/6bcfd898662671be15ae7827120472c5667afb3d7429f1f917737f3bf84c4176003228131b643ae74543f17a394446247df090c597bb9a728cce298606ed0aa7
+  languageName: node
+  linkType: hard
+
+"csso@npm:^5.0.5":
+  version: 5.0.5
+  resolution: "csso@npm:5.0.5"
+  dependencies:
+    css-tree: "npm:~2.2.0"
+  checksum: 10c0/ab4beb1e97dd7e207c10e9925405b45f15a6cd1b4880a8686ad573aa6d476aed28b4121a666cffd26c37a26179f7b54741f7c257543003bfb244d06a62ad569b
   languageName: node
   linkType: hard
 
@@ -3098,7 +3166,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domutils@npm:^3.1.0":
+"domutils@npm:^3.0.1, domutils@npm:^3.1.0":
   version: 3.1.0
   resolution: "domutils@npm:3.1.0"
   dependencies:
@@ -3144,8 +3212,9 @@ __metadata:
   resolution: "eazy-c-master-tutorial@workspace:."
   dependencies:
     "@slidev/cli": "npm:^0.48.0-beta.12"
-    "@slidev/theme-default": "npm:latest"
-    "@slidev/theme-seriph": "npm:latest"
+    "@slidev/theme-seriph": "npm:^0.25.0"
+    slidev-theme-academic: "npm:^1.2.0"
+    slidev-theme-penguin: "npm:^2.1.1"
     vue: "npm:^3.4.19"
   languageName: unknown
   linkType: soft
@@ -3917,6 +3986,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"immutable@npm:^4.0.0":
+  version: 4.3.5
+  resolution: "immutable@npm:4.3.5"
+  checksum: 10c0/63d2d7908241a955d18c7822fd2215b6e89ff5a1a33cc72cd475b013cbbdef7a705aa5170a51ce9f84a57f62fdddfaa34e7b5a14b33d8a43c65cc6a881d6e894
+  languageName: node
+  linkType: hard
+
 "imurmurhash@npm:^0.1.4":
   version: 0.1.4
   resolution: "imurmurhash@npm:0.1.4"
@@ -4660,6 +4736,13 @@ __metadata:
   dependencies:
     "@types/mdast": "npm:^4.0.0"
   checksum: 10c0/2d3c1af29bf3fe9c20f552ee9685af308002488f3b04b12fa66652c9718f66f41a32f8362aa2d770c3ff464c034860b41715902ada2306bb0a055146cef064d7
+  languageName: node
+  linkType: hard
+
+"mdn-data@npm:2.0.28":
+  version: 2.0.28
+  resolution: "mdn-data@npm:2.0.28"
+  checksum: 10c0/20000932bc4cd1cde9cba4e23f08cc4f816398af4c15ec81040ed25421d6bf07b5cf6b17095972577fb498988f40f4cb589e3169b9357bb436a12d8e07e5ea7b
   languageName: node
   linkType: hard
 
@@ -5509,6 +5592,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nth-check@npm:^2.0.1":
+  version: 2.1.1
+  resolution: "nth-check@npm:2.1.1"
+  dependencies:
+    boolbase: "npm:^1.0.0"
+  checksum: 10c0/5fee7ff309727763689cfad844d979aedd2204a817fbaaf0e1603794a7c20db28548d7b024692f953557df6ce4a0ee4ae46cd8ebd9b36cfb300b9226b567c479
+  languageName: node
+  linkType: hard
+
 "nypm@npm:^0.3.3":
   version: 0.3.6
   resolution: "nypm@npm:0.3.6"
@@ -5815,7 +5907,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prism-theme-vars@npm:^0.2.4":
+"prism-theme-vars@npm:^0.2.2, prism-theme-vars@npm:^0.2.4":
   version: 0.2.4
   resolution: "prism-theme-vars@npm:0.2.4"
   checksum: 10c0/22d09f3cfa238743868a0dc7b26ba0e2021bcb6ce3bca632eb22e32ea0dc827c3d55f86d6a2a4a0aed9b26f1382389b55c9acef469fbe332f39957bf1ba6f46f
@@ -6114,6 +6206,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sass@npm:^1.64.1":
+  version: 1.71.1
+  resolution: "sass@npm:1.71.1"
+  dependencies:
+    chokidar: "npm:>=3.0.0 <4.0.0"
+    immutable: "npm:^4.0.0"
+    source-map-js: "npm:>=0.6.2 <2.0.0"
+  bin:
+    sass: sass.js
+  checksum: 10c0/59d79a6e106747746792b0c71908ae0aecdaf9b794d5724ee64e5249412f0d8ebe7ee2bf12946618848f14f949c4f6b530d82da3e62ab31c71198c6f73002130
+  languageName: node
+  linkType: hard
+
 "scule@npm:^1.1.1, scule@npm:^1.2.0, scule@npm:^1.3.0":
   version: 1.3.0
   resolution: "scule@npm:1.3.0"
@@ -6167,6 +6272,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"shikey@npm:^0.0.2":
+  version: 0.0.2
+  resolution: "shikey@npm:0.0.2"
+  checksum: 10c0/7e30a3f69dadf3b0e5145de68bb0adce8c3b36e7469d5873015eae53e1a9930bce486b4d15853aef7aa31aacc2cd91d4803232f01dc2674cffe59ec1eb741cef
+  languageName: node
+  linkType: hard
+
 "shiki@npm:1.1.7, shiki@npm:^1.1.7":
   version: 1.1.7
   resolution: "shiki@npm:1.1.7"
@@ -6215,6 +6327,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"slidev-theme-academic@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "slidev-theme-academic@npm:1.2.0"
+  dependencies:
+    "@slidev/types": "npm:^0.29.2"
+    codemirror-theme-vars: "npm:^0.1.1"
+    prism-theme-vars: "npm:^0.2.2"
+    theme-vitesse: "npm:^0.1.14"
+  checksum: 10c0/92e42719ded0b2d130230d52d1dd613ed723d80ee100eca1d2be1aa2caf2cd6a8cad5f1b7eac42fc709d46a5de8bce70290040991728c29f9cbf4a11791c22b6
+  languageName: node
+  linkType: hard
+
+"slidev-theme-penguin@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "slidev-theme-penguin@npm:2.1.1"
+  dependencies:
+    "@alvarosabu/ui": "npm:3.0.0-alpha.13"
+    "@slidev/types": "npm:^0.42.8"
+    prism-theme-vars: "npm:^0.2.4"
+    vite-svg-loader: "npm:^4.0.0"
+  checksum: 10c0/fbe555e3671b3b46d4430709f813d09bf6b49fbe121cc406fb97a143d2f1afb6646f15557c60d14627e6e651f62ebae7ad2729045a66ffb60098cc4fde0a91db
+  languageName: node
+  linkType: hard
+
 "smart-buffer@npm:^4.2.0":
   version: 4.2.0
   resolution: "smart-buffer@npm:4.2.0"
@@ -6243,7 +6379,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-js@npm:^1.0.1, source-map-js@npm:^1.0.2":
+"source-map-js@npm:>=0.6.2 <2.0.0, source-map-js@npm:^1.0.1, source-map-js@npm:^1.0.2":
   version: 1.0.2
   resolution: "source-map-js@npm:1.0.2"
   checksum: 10c0/32f2dfd1e9b7168f9a9715eb1b4e21905850f3b50cf02cf476e47e4eebe8e6b762b63a64357896aa29b37e24922b4282df0f492e0d2ace572b43d15525976ff8
@@ -6397,6 +6533,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"svgo@npm:^3.0.2":
+  version: 3.2.0
+  resolution: "svgo@npm:3.2.0"
+  dependencies:
+    "@trysound/sax": "npm:0.2.0"
+    commander: "npm:^7.2.0"
+    css-select: "npm:^5.1.0"
+    css-tree: "npm:^2.3.1"
+    css-what: "npm:^6.1.0"
+    csso: "npm:^5.0.5"
+    picocolors: "npm:^1.0.0"
+  bin:
+    svgo: ./bin/svgo
+  checksum: 10c0/28fa9061ccbcf2e3616d48d1feb613aaa05f8f290a329beb0e585914f1864385152934a7d4d683a4609fafbae3d51666633437c359c5c5ef74fb58ad09092a7c
+  languageName: node
+  linkType: hard
+
 "tar@npm:^6.1.11, tar@npm:^6.1.2, tar@npm:^6.2.0":
   version: 6.2.0
   resolution: "tar@npm:6.2.0"
@@ -6408,6 +6561,13 @@ __metadata:
     mkdirp: "npm:^1.0.3"
     yallist: "npm:^4.0.0"
   checksum: 10c0/02ca064a1a6b4521fef88c07d389ac0936730091f8c02d30ea60d472e0378768e870769ab9e986d87807bfee5654359cf29ff4372746cc65e30cbddc352660d8
+  languageName: node
+  linkType: hard
+
+"theme-vitesse@npm:^0.1.14":
+  version: 0.1.14
+  resolution: "theme-vitesse@npm:0.1.14"
+  checksum: 10c0/a74d99b9ed78a39632dbd4b3b437442a25b21c3ea63615718ff18302c749ea89ee6a5b58f852548ace18229ef8eb013e470649fc3092be667b07c7ca606b0f5f
   languageName: node
   linkType: hard
 
@@ -6982,6 +7142,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vite-svg-loader@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "vite-svg-loader@npm:4.0.0"
+  dependencies:
+    "@vue/compiler-sfc": "npm:^3.2.20"
+    svgo: "npm:^3.0.2"
+  checksum: 10c0/163f430c33eb90acf6c46b1d9e156d4e7803b19abeda79a88796584a400315d4909a555df9ea80b4b6c13efd8e0119a1322786d40e82f44eff4611e7fa0ae0d5
+  languageName: node
+  linkType: hard
+
 "vite@npm:^5.1.4":
   version: 5.1.4
   resolution: "vite@npm:5.1.4"
@@ -7080,7 +7250,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.4.19":
+"vue@npm:^3.3.4, vue@npm:^3.4.19":
   version: 3.4.20
   resolution: "vue@npm:3.4.20"
   dependencies:
