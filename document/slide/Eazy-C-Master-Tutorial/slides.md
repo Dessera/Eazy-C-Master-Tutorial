@@ -10,3 +10,11 @@ Eazy C Master Tutorial
 ---
 src: "pages/00-before-all/000-introduction.md"
 ---
+
+---
+src: "pages/01-environment/100-cover.md"
+---
+
+---
+src: "pages/02-begin-to-learn/200-cover.md"
+---
