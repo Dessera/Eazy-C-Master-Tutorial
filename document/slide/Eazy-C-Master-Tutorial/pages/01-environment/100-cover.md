@@ -2,7 +2,7 @@
 layout: center
 ---
 
-# Part 1: 工作环境
+# Part 1：工作环境
 
 ---
 src: "./101-use-online-environment.md"

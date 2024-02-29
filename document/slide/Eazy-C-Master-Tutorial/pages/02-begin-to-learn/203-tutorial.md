@@ -4,14 +4,7 @@
 
 <div v-click>
 
-```c
-#include <stdio.h>
-
-int main() {
-    printf("Here is ECMT!\n");
-    return 0;
-}
-```
+<<< @/snippets/02/200-hello-ecmt.c
 
 </div>
 

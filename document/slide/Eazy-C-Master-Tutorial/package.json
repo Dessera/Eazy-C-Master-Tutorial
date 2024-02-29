@@ -13,5 +13,8 @@
     "slidev-theme-academic": "^1.2.0",
     "slidev-theme-penguin": "^2.1.1",
     "vue": "^3.4.19"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.42.0"
   }
 }

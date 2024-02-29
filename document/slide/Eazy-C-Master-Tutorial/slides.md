@@ -18,3 +18,7 @@ src: "pages/01-environment/100-cover.md"
 ---
 src: "pages/02-begin-to-learn/200-cover.md"
 ---
+
+---
+src: "pages/03-types-variables/300-cover.md"
+---
