@@ -21,7 +21,15 @@ src: "./404-cf-if.md"
 ---
 
 ---
+src: "./404-1-if-exercise.md"
+---
+
+---
 src: "./405-cf-switch.md"
+---
+
+---
+src: "./405-switch-exercise.md"
 ---
 
 ---

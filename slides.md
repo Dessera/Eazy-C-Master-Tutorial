@@ -42,3 +42,11 @@ src: "pages/07-pointer/700-cover.md"
 ---
 src: "pages/08-preprocessor/800-cover.md"
 ---
+
+---
+layout: center
+---
+
+# 感谢观看
+
+更多 Modern C/C++ 内容请参考[C++ 参考手册](https://zh.cppreference.com/w/)

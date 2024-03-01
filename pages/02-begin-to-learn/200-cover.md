@@ -13,5 +13,5 @@ src: "./202-hello-c.md"
 ---
 
 ---
-src: "./203-tutorial.md"
+src: "./203-exercise.md"
 ---

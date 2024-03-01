@@ -33,7 +33,7 @@ src: "./305-const.md"
 ---
 
 ---
-src: "./305-1-cpp-variable-exercises-turorial.md"
+src: "./305-1-variable-exercise.md"
 ---
 
 ---
@@ -69,5 +69,5 @@ src: "./313-caution.md"
 ---
 
 ---
-src: "./314-cpp-variable-exercises-sum-turorial.md"
+src: "./314-temperature-exercise.md"
 ---

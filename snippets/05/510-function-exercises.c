@@ -1,18 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 
-float fahr2Cels(float fahr)
-{
-    // 我们这里将本来直接插入到printf的计算部分直接提取出来
-    // 事实上，之后review code降低模块耦合度的一个常见手段就是
-    // 将一个较大的模块拆成若干小模块的组合
-    return 5 * (fahr - 32) / 9;
+double fahr2Cels(double fahr) {
+  return 5 * (fahr - 32) / 9;  // 计算摄氏温度并返回
 }
 
+int main() {
+  double cels = fahr2Cels(0); // 调用函数
+  printf("%lf", cels);      // 输出结果
 
-// Possible solutions I
-int main()
-{
-    float fahr = 50;
-    float cels = fahr2Cels(fahr);
-    printf("%f", cels);
+  cels = fahr2Cels(50);       // 调用函数
+  printf("%lf", cels);      // 输出结果
 }
