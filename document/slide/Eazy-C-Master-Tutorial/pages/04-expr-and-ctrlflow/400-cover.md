@@ -27,3 +27,15 @@ src: "./405-cf-switch.md"
 ---
 src: "./406-ternary-operator.md"
 ---
+
+---
+src: "./407-cf-while.md"
+---
+
+---
+src: "./408-cf-for.md"
+---
+
+---
+src: "./409-cf-extra.md"
+---

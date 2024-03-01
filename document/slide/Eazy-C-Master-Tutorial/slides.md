@@ -26,3 +26,7 @@ src: "pages/03-types-variables/300-cover.md"
 ---
 src: "pages/04-expr-and-ctrlflow/400-cover.md"
 ---
+
+---
+src: "pages/05-function/500-cover.md"
+---
