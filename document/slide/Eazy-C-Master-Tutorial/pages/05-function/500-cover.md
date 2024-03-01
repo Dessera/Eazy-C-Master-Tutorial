@@ -27,3 +27,7 @@ src: "./505-main.md"
 ---
 src: "./509-main-no-return.md"
 ---
+
+---
+src: "./510-function-exercises.md"
+---

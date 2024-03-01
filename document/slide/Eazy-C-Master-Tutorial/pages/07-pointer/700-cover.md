@@ -23,3 +23,7 @@ src: "./704-memory-alc.md"
 ---
 src: "./705-cpp-memory-alc.md"
 ---
+
+---
+src: "./706-cpp-memory-alc-exercises.md"
+---

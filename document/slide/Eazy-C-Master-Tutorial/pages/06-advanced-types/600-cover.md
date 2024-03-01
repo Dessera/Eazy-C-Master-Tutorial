@@ -13,6 +13,9 @@ src: "./602-class.md"
 ---
 
 ---
+src: "./602-1-class-exercises.md"
+---
+---
 src: "./603-enum.md"
 ---
 
@@ -30,6 +33,10 @@ src: "./606-cpp-array.md"
 
 ---
 src: "./607-cpp-vector.md"
+---
+
+---
+src: "./607-1-array_exercises.md"
 ---
 
 ---
