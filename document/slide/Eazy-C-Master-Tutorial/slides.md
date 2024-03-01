@@ -30,3 +30,15 @@ src: "pages/04-expr-and-ctrlflow/400-cover.md"
 ---
 src: "pages/05-function/500-cover.md"
 ---
+
+---
+src: "pages/06-advanced-types/600-cover.md"
+---
+
+---
+src: "pages/07-pointer/700-cover.md"
+---
+
+---
+src: "pages/08-preprocessor/800-cover.md"
+---
