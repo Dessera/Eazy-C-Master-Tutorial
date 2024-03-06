@@ -18,7 +18,7 @@ layout: two-cols
 
 ::right::
 
-<div class="pl-10" v-clicks>
+<div class="pl-10" v-click>
 
 <<< @/snippets/06/607-1-array_exercises.c
 
